@@ -5,6 +5,16 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "3D Data Science Intern",
+    cardImage:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4D0BAQGlWgjUubMBLg%2Fcompany-logo_200_200%2F0%2F1655103522405%2Fairendertechnology_logo%3Fe%3D2147483647%26v%3Dbeta%26t%3DAMfCz9rgArrMuquY_RYWKZTOTAH1n4-X43rof0qwMxE&tbnid=VFnk4Z4Exx_ooM&vet=12ahUKEwjvkrbao7yDAxVHSWwGHanXDFUQMygAegQIARBX..i&imgrefurl=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fairendertechnology&docid=Lwa62Gbo4E8SeM&w=200&h=200&q=airender%3D&client=ubuntu&ved=2ahUKEwjvkrbao7yDAxVHSWwGHanXDFUQMygAegQIARBX"
+    place: "Airender Technology", 
+    time: "(Jul - Present)",
+    desp: "<li>Led a pioneering project employing Gaussian splatting methods to create high-definition 3D video reconstructions,enhancing visual fidelity and depth perception. </li> <li>Pioneered the integration of advanced masking algorithms with Neural Networks to engineer a robust 3D surface sreconstruction system, significantly boosting rendering speeds and enhancing overall model precision.</li> <li>Implemented a 3D model of a human body using 3D data.</li>",
+
+
+  }
+
+  {
     title: "SURE Intern",
     cardImage: "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png",
     place: "IIT Hyderabad",
