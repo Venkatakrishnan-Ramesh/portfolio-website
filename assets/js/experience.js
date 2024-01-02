@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "NLP Consultant",
-    cardImage:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4D0BAQGlWgjUubMBLg%2Fcompany-logo_200_200%2F0%2F1655103522405%2Fairendertechnology_logo%3Fe%3D2147483647%26v%3Dbeta%26t%3DAMfCz9rgArrMuquY_RYWKZTOTAH1n4-X43rof0qwMxE&tbnid=VFnk4Z4Exx_ooM&vet=12ahUKEwjvkrbao7yDAxVHSWwGHanXDFUQMygAegQIARBX..i&imgrefurl=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fairendertechnology&docid=Lwa62Gbo4E8SeM&w=200&h=200&q=airender%3D&client=ubuntu&ved=2ahUKEwjvkrbao7yDAxVHSWwGHanXDFUQMygAegQIARBX",
+    cardImage:"https://media.licdn.com/dms/image/D560BAQF9hfoHthinow/company-logo_200_200/0/1684439051710/sirchmyway_logo?e=1712188800&v=beta&t=s3JuRmyiP7FSr33f-d2fw6DMU0-dLmSuRDUuSHu0tSw",
     place: "Sirch", 
     time: "(Jul - Present)",
     desp: "<li>Successfully implemented OpenAI and Palm API integration, enhancing the efficiency and accuracy of large language model applications in search engine query processing </li> <li> Crafted advanced strategies for formulating prompts to efficiently address search bar queries using large language models in search engines</li> ",
