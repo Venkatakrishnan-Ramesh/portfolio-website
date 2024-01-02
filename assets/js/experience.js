@@ -12,8 +12,7 @@ const exp = [
     desp: "<li>Led a pioneering project employing Gaussian splatting methods to create high-definition 3D video reconstructions,enhancing visual fidelity and depth perception. </li> <li>Pioneered the integration of advanced masking algorithms with Neural Networks to engineer a robust 3D surface sreconstruction system, significantly boosting rendering speeds and enhancing overall model precision.</li> <li>Implemented a 3D model of a human body using 3D data.</li>",
 
 
-  }
-
+  },
   {
     title: "SURE Intern",
     cardImage: "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png",
