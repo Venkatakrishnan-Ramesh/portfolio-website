@@ -77,6 +77,23 @@ h1 { margin: 20px 0 16px; font-size: clamp(42px, 7vw, 76px); line-height: 0.98; 
 .stat { border: 1px solid var(--line); border-radius: 18px; padding: 14px; background: rgba(11, 16, 32, 0.52); }
 .stat strong { display: block; font-size: 20px; }
 .stat span { color: var(--subtle); font-size: 13px; }
+.logo-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 4px; }
+.logo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.76);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+.logo-chip img { width: 18px; height: 18px; object-fit: contain; filter: invert(1); opacity: 0.9; }
+.logo-chip.letter { min-width: 38px; justify-content: center; color: var(--text); background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(167, 139, 250, 0.18)); }
+.logo-chip.letter strong { letter-spacing: -0.04em; }
 section { padding: 54px 0; }
 .section-head { margin-bottom: 24px; }
 .section-head h2 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.06em; }
