@@ -101,6 +101,14 @@ ul.clean { padding-left: 18px; margin: 10px 0 0; }
 .timeline-item { border-left: 3px solid var(--accent); background: rgba(17, 24, 39, 0.78); border-radius: 0 18px 18px 0; padding: 18px 22px; }
 .timeline-item h3 { margin: 0 0 6px; }
 .timeline-item p { margin: 0; color: var(--muted); }
+.roadmap { position: relative; display: grid; gap: 22px; margin-top: 26px; }
+.roadmap::before { content: ""; position: absolute; left: 29px; top: 18px; bottom: 18px; width: 2px; background: linear-gradient(180deg, var(--accent), var(--accent-2)); opacity: 0.55; }
+.roadmap-item { position: relative; display: grid; grid-template-columns: 72px 1fr; gap: 18px; align-items: start; }
+.roadmap-marker { width: 58px; height: 58px; border-radius: 18px; display: grid; place-items: center; border: 1px solid var(--line); background: linear-gradient(135deg, rgba(56, 189, 248, 0.22), rgba(167, 139, 250, 0.18)); box-shadow: var(--shadow); font-weight: 900; color: var(--text); z-index: 1; }
+.roadmap-card { border: 1px solid var(--line); background: rgba(17, 24, 39, 0.82); border-radius: 22px; padding: 22px; box-shadow: 0 10px 36px rgba(0, 0, 0, 0.18); }
+.roadmap-card h3 { margin: 0 0 6px; letter-spacing: -0.03em; }
+.roadmap-meta { color: var(--accent); font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+.roadmap-card p { margin: 0; color: var(--muted); }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 12px; font-weight: 800; border: 1px solid var(--line); color: var(--text); background: var(--panel); }
 .button.primary { border: 0; background: linear-gradient(135deg, #0284c7, #7c3aed); box-shadow: var(--shadow); }
@@ -111,4 +119,7 @@ ul.clean { padding-left: 18px; margin: 10px 0 0; }
   .hero { padding-top: 56px; }
   .hero-visual { min-height: auto; }
   .hero-3d { height: 240px; }
+  .roadmap::before { left: 23px; }
+  .roadmap-item { grid-template-columns: 54px 1fr; gap: 12px; }
+  .roadmap-marker { width: 46px; height: 46px; border-radius: 14px; }
 }
